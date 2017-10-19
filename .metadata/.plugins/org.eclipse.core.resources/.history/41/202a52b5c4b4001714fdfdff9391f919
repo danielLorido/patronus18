@@ -1,0 +1,14 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Nave miNave = new NaveBase();
+		System.out.println(miNave.dispara());
+		System.out.println(miNave.getClass().toString());
+		//añadir una funcionalidad
+		miNave=new DisparoLDos(miNave);
+		System.out.println(miNave.dispara());
+		System.out.println(miNave.getClass().toString());
+	}
+
+}
