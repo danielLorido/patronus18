@@ -1,0 +1,9 @@
+
+public class Principal {
+public static void main(String[] args) {
+	FactoresNutricionales cocaCola=new FactoresNutricionales.Builder(300, 125).build();
+	//Como se usa la opcionales
+	FactoresNutricionales fanta=new FactoresNutricionales.Builder(250, 100)
+	.calories(150).calories(500).build();
+}
+}

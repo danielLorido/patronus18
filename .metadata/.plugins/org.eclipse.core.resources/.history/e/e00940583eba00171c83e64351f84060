@@ -1,0 +1,12 @@
+public class ComidaTelescopica {
+	// el patron telescope se usa cuando existen varias propiedades que
+	// entendemos como
+	// opcionales su solucion consiste en escalar los constructores
+	  private final int id;
+	  private final String name;
+	  private final int calories;
+	  private final int servingSize;
+	  private final int fat;
+	  private final String description;
+
+}
