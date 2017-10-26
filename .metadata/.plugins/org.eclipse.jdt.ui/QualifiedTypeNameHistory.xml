@@ -2,4 +2,13 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="DisparoLDos"/>
 <fullyQualifiedTypeName name="Armadura"/>
+<fullyQualifiedTypeName name="FactoresNutricionales"/>
+<fullyQualifiedTypeName name="FactoresNutricionales.Builder"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="backend.Motor"/>
+<fullyQualifiedTypeName name="backend.MotorEconomico"/>
+<fullyQualifiedTypeName name="backend.MotorElectrico"/>
+<fullyQualifiedTypeName name="backend.MotorElectricoAdapter"/>
+<fullyQualifiedTypeName name="ImpresionNormalFacade"/>
+<fullyQualifiedTypeName name="TipoInpresion"/>
 </qualifiedTypeNameHistroy>

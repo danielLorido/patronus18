@@ -1,0 +1,4 @@
+
+public interface TipoInpresion {
+	 public void imprimir();
+}
