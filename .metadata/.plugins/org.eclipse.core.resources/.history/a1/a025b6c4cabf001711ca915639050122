@@ -1,0 +1,40 @@
+import javax.swing.JProgressBar;
+
+public class Avanzador extends Thread {
+
+	public int nivel = 0;
+	private JProgressBar progressBar;
+	private boolean acelero = false;
+	private boolean freno;
+
+	public Avanzador(JProgressBar progressBar) {
+		this.progressBar = progressBar;
+	}
+
+	@Override
+	public void run() {
+		while (true) {
+			progressBar.setValue(nivel);
+			try {
+				this.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			acelera(acelero);
+			frena(freno);
+		}
+	}
+
+	public void acelera(boolean valor) {
+		this.acelero = valor;
+		if (this.acelero && nivel < 100) {
+			nivel++;
+		}
+	}
+
+	public void frena(boolean frena) {
+		this.freno=frena;
+		if (this.freno && nivel > 0)
+			nivel--;
+	}
+}
